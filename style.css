@@ -22,7 +22,17 @@ header{
     font-weight: bold;
     font-size: 16px;
 }
-
+.section-title{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 40px;
+    color: #252432;
+}
+.section-description{
+    font-family: raleway;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
 /* navbar styles */
 nav{
     margin: 0px 150px;
@@ -48,4 +58,17 @@ nav{
     justify-self: center;
     margin-top: 100px;
     margin-bottom: 37px;
+}
+/* See It In Action Section Styles */
+.seeAction{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 159px;
+    align-items: center;
+}
+.seeAction-column1{
+    max-width: 517px;
+}
+.wc-mini{
+    border-radius: 48px;
 }
