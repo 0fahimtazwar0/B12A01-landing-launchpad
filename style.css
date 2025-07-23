@@ -12,6 +12,9 @@ header{
     padding-bottom: 152px;
     
 }
+a{
+    text-decoration: none;
+}
 /* shared styles */
 .btn-primary{
     border-radius: 10px;
@@ -191,7 +194,7 @@ nav{
 .contact{
     display: flex;
     align-items: center;
-    margin: 0px 150px;
+    margin: 71px 150px;
     justify-content: space-between;
 }
 .contactText{
@@ -204,4 +207,29 @@ label{
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* footer styles */
+footer{
+    padding: 104px 0px ;
+    text-align: center;
+    background-color: white;
+}
+.logoBig{
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footerText{
+    color: #8987A1;
+    max-width: 530px;
+    justify-self: center;
+}
+.footerLinks{
+    display: flex;
+    gap: 48px;
+    justify-self: center;
+}
+.footer-link-text{
+    color: #8987A1;
 }
