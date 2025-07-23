@@ -17,14 +17,28 @@ a{
 }
 /* shared styles */
 .btn-primary{
+    transition-duration: 200ms;
     border-radius: 10px;
     background-color: #4E47FF;
     color: white;
-    border: none;
+    border: solid 3px;
+    border-color: #4E47FF;
     padding: 12px 36px;
     font-family: raleway;
     font-weight: bold;
     font-size: 16px;
+}
+.btn-primary:hover{
+    transition-duration: 200ms;
+    border-radius: 10px;
+    background-color: white;
+    color: #4E47FF;
+    border: solid 3px;
+    border-color: #4E47FF;
+    padding: 10px 34px;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 18px;
 }
 .section-title{
     font-family: raleway;
@@ -180,10 +194,12 @@ nav{
     margin-bottom: 19px;
 }
 .formBtn{
+    transition-duration: 200ms;
     border-radius: 10px;
     background-color: #4E47FF;
     color: white;
-    border: none;
+    border: solid 3px;
+    border-color: #4E47FF;
     padding: 20px 32px;
     font-family: raleway;
     font-weight: bold;
@@ -191,6 +207,21 @@ nav{
     width: 100%;
     box-sizing: border-box;
 }
+.formBtn:hover{
+    transition-duration: 200ms;
+    border-radius: 10px;
+    background-color: white;
+    color: #4E47FF;
+    border: solid 3px;
+    border-color: #4E47FF;
+    padding: 20px 32px;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .contact{
     display: flex;
     align-items: center;
@@ -232,4 +263,7 @@ footer{
 }
 .footer-link-text{
     color: #8987A1;
+}
+.footer-link-text:hover{
+    color: #4E47FF;
 }
