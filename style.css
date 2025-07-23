@@ -1,6 +1,8 @@
 body { 
     margin: 0; 
-    padding: 0; 
+    padding: 0;
+    background-color: #F5F8FF; 
+    font-family: inter;
         } 
 header{
     text-align: center;
@@ -46,7 +48,6 @@ nav{
     padding: 51.5px 0px;
 }
 .nav-title{
-    font-family: inter;
     font-weight: 900;
     font-size: 34px;
     color: #4E47FF;
@@ -90,7 +91,6 @@ nav{
     justify-content: space-between;
 }
 .bigText{
-    font-family: inter;
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
@@ -98,4 +98,44 @@ nav{
 }
 .columnForBigText{
     text-align: center;
+}
+/* "What our users say" section styles */
+.reviewTitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-top: 24px;
+}
+.reviewDescription{
+    font-size: 16px;
+    color: #1E1E1E;
+    max-width: 318px;
+    margin: 8px 0px 24px;
+}
+.userAvatar{
+    border-radius: 100%;
+}
+.userName{
+    font-weight: 600;
+    color: #757575;
+}
+.date{
+    margin-top: 2px;
+    color: #B3B3B3;
+}
+.reviewUser{
+    display: flex;
+    gap: 12px;
+}
+.reviews{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+    max-width: 300px;
+}
+.reviewContainer{
+    display: flex;
+    margin: 0px 151px;
+    justify-content: space-between;
 }
